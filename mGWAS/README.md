@@ -99,8 +99,6 @@ The GRM generated in Step 1 is required for GWAS in Step 2.
 The order of phenotype columns determines the trait analysis order.
 The annotation file and peak file must use consistent chromosome naming.
 
-
-
 ---
 
 ## License
