@@ -1,4 +1,4 @@
-#  Metabolomics GWAS Pipeline
+#  Metabolomics GWAS
 
 A reproducible pipeline for metabolite genome-wide association analysis (mGWAS), including genomic relationship matrix construction, GWAS, genomic inflation factor calculation, and locus annotation.
 
