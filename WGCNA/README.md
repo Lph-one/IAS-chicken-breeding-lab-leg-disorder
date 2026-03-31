@@ -1,6 +1,6 @@
 # WGCNA Analysis and Visualization for CA and CT Groups
 
-A reproducible workflow for Weighted correlation network analysis (WGCNA) and cross-group module comparison using metabolomics data.
+A reproducible workflow for weighted correlation network analysis (WGCNA) and cross-group module comparison using metabolomics data.
 
 ---
 
