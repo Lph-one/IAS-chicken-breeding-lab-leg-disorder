@@ -19,21 +19,6 @@ All steps are modular and can be executed independently or as a full workflow.
 
 ---
 
-## Project Structure
-
-.
-├── split_genotype.sh # Split genotype data into CA and CT
-├── run_pca.sh # Perform PCA for each group
-├── run_CA_h2_GCTA.sh # GCTA heritability for CA
-├── run_CT_h2_GCTA.sh # GCTA heritability for CT
-├── run_CA_h2_Hiblup.sh # HIBLUP heritability for CA
-├── run_CT_h2_Hiblup.sh # HIBLUP heritability for CT
-├── run_h2_by_group_GCTA.py # Core GCTA pipeline (parameterized)
-├── run_h2_by_group_Hiblup.sh # Core HIBLUP pipeline (parameterized)
-
-
----
-
 ## Requirements
 
 The following software is required:
