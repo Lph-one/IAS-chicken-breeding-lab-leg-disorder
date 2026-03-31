@@ -22,13 +22,13 @@ In these files:
 ## Requirements
 The following R packages are required:
 
-WGCNA
-pheatmap
-dplyr
-grid
-tidyr
-ggplot2
-ggalluvial
+- WGCNA
+- pheatmap
+- dplyr
+- grid
+- tidyr
+- ggplot2
+- ggalluvial
 
 ---
 
