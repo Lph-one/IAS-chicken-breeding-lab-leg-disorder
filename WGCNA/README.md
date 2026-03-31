@@ -29,14 +29,6 @@ The pipeline consists of the following steps:
 
 ---
 
-## Project Structure
-run_CA_WGCNA.R # WGCNA analysis for CA
-run_CT_WGCNA.R # WGCNA analysis for CT
-heatmap_by_group.R # TOM heatmap visualization
-sankey_plot.R # Cross-group module comparison (Sankey)
-
----
-
 ## WGCNA Analysis
 run_CA_WGCNA.R
 run_CT_WGCNA.R
@@ -68,11 +60,8 @@ ggalluvial
 
 ## Usage
 source("run_CA_WGCNA.R")
-
 source("run_CT_WGCNA.R")
-
 source("heatmap_by_group.R")
-
 source("sankey_plot.R")
 
 
