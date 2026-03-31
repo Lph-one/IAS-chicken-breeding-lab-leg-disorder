@@ -1,4 +1,4 @@
-#  GWAS Loci Extraction and Colocalization Pipeline
+#  GWAS Loci Extraction and Colocalization
 
 This repository contains a set of standalone scripts for performing colocalization (coloc) analyses between mQTL and molecular QTL (molQTL) summary statistics.
 
@@ -19,8 +19,8 @@ The pipeline includes four main steps:
 
 ## Requirements
 Software
-- Python ≥ 2265 3.7
-- R ≥ 2265 4.0
+- Python ≥ 3.7
+- R ≥ 4.0
 
 Python packages
 - pandas
