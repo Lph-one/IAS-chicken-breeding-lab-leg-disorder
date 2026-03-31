@@ -20,8 +20,8 @@ This repository provides a modular workflow for metabolite genome-wide associati
 ## Requirements
 Software
 - GEMMA (v0.98.4 or later)
-- Python \u2265 3.7
-- R \u2265 4.0
+- Python ≥ 2265 3.7
+- R ≥ 2265 4.0
 
 Python packages
 - numpy
