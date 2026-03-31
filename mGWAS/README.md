@@ -38,11 +38,13 @@ R packages
 
 Use build_grm.sh to generate the relatedness matrix with GEMMA.
 
+```bash
 bash scripts/build_grm.sh \
   --group sample \
   --bfile data/genotype/sample_prefix \
   --gemma /path/to/gemma \
   --outdir results/grm
+```
 
 This step generates GEMMA kinship matrix files, including:
 
@@ -52,6 +54,7 @@ This step generates GEMMA kinship matrix files, including:
 ### 2. Run GWAS
 Use run_gwas.sh to perform GWAS for all traits in the phenotype file.
 
+```bash
 bash scripts/run_gwas.sh \
   --group sample \
   --gemma /path/to/gemma \
@@ -61,6 +64,7 @@ bash scripts/run_gwas.sh \
   --pheno-file data/phenotype/phenotype.txt \
   --outdir results/GWAS_results \
   --start-col 3
+```
 
 For each trait, GEMMA produces association result files such as:
 
@@ -70,20 +74,23 @@ For each trait, GEMMA produces association result files such as:
 ### 3. Calculate genomic inflation factor
 Use calculate_lambda.py to summarize genomic inflation across all GWAS traits.
 
+```python
 python scripts/calculate_lambda.py \
   --input-dir results/GWAS_results \
   --output-file results/lambda/lambda_results.txt
+```
 
 
 ### 4. Annotate loci
 Use annotate_peaks.R to annotate genomic intervals by overlapping them with genome annotation.
 
+```R
 Rscript scripts/annotate_peaks.R \
   data/annotation/genome_annotation.txt \
   data/peaks/peaks.txt \
   results/annotation/peaks_annotation.txt \
   CHR BIN_START BIN_END
-
+```
 
 ---
 
