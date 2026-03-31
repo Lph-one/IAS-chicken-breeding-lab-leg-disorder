@@ -1,4 +1,4 @@
-#  Metabolite–Complex Trait Mendelian Randomization Pipeline
+#  Metabolite–Complex Trait Mendelian Randomization
 
 This repository contains a set of standalone scripts for performing Mendelian randomization (MR) analyses between metabolite GWAS and complex trait GWAS summary statistics.
 
@@ -20,8 +20,8 @@ The pipeline includes four main steps:
 
 ## Requirements
 Software
-- Python ≥ 2265 3.7
-- R ≥ 2265 4.0
+- Python ≥ 3.7
+- R ≥ 4.0
 
 Python packages
 - pandas
