@@ -17,6 +17,11 @@ The pipeline includes four main steps:
 
 ---
 
+## Scope of this repository
+These scripts do not implement new statistical methods. Instead, they integrate existing tools into a consistent and reproducible workflow.
+
+---
+
 ## Requirements
 Software
 - Python ≥ 3.7
