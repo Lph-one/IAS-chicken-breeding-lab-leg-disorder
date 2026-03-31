@@ -72,6 +72,7 @@ For each group (CA and CT), the pipeline generates:
 
 
 
+---
 
 ## License
 For academic and research use only.
