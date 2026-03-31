@@ -25,29 +25,38 @@ The following software is required:
 - PLINK (v1.9 or later)
 - GCTA (v1.93 or later)
 - HIBLUP
-- GNU Parallel
 - Python ≥ 3.7
 
 Make sure all tools are available in your environment (`$PATH`).  
-If not, you can specify their paths in the scripts.
 
 ---
 
 ## Workflow
 ### 1. Split genotype data
 
+```bash
 bash split_genotype.sh
+```
 
 ### 2. Run PCA
+
+```bash
 bash run_pca.sh
+```
 
 ### 3. GCTA heritability analysis
+
+```bash
 bash run_CA_h2_GCTA.sh
 bash run_CT_h2_GCTA.sh
+```
 
 ### 4. HIBLUP heritability analysis
+
+```bash
 bash run_CA_h2_Hiblup.sh
 bash run_CT_h2_Hiblup.sh
+```
 
 
 ---
