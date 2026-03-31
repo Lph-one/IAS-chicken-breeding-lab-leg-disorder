@@ -1,4 +1,4 @@
-# Genotype-Based PCA and Heritability Analysis Pipeline (CA vs CT)
+# Genotype-Based PCA and Heritability Analysis (CA vs CT)
 
 A reproducible pipeline for genotype-based PCA and large-scale heritability estimation using GCTA and HIBLUP.
 
