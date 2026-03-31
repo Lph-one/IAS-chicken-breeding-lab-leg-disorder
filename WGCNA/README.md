@@ -19,6 +19,11 @@ In these files:
 
 ---
 
+## Scope of this repository
+These scripts do not implement new statistical methods. Instead, they integrate existing tools into a consistent and reproducible workflow.
+
+---
+
 ## Requirements
 The following R packages are required:
 
