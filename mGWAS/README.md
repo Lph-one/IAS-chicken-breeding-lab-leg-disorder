@@ -20,8 +20,8 @@ This repository provides a modular workflow for metabolite genome-wide associati
 ## Requirements
 Software
 - GEMMA (v0.98.4 or later)
-- Python ≥ 2265 3.7
-- R ≥ 2265 4.0
+- Python ≥ 3.7
+- R ≥ 4.0
 
 Python packages
 - numpy
@@ -101,7 +101,7 @@ The annotation file and peak file must use consistent chromosome naming.
 
 
 
-
+---
 
 ## License
 For academic and research use only.
