@@ -64,10 +64,10 @@ bash run_CT_h2_Hiblup.sh
 ## Output
 For each group (CA and CT), the pipeline generates:
 
-PCA results
-GRM files (GCTA)
-Trait-level analysis outputs
-Summary heritability files
+- PCA results
+- GRM files (GCTA)
+- Trait-level analysis outputs
+- Summary heritability files
 
 
 
