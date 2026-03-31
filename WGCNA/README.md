@@ -46,10 +46,10 @@ sankey_plot.r
 ---
 
 ## Output
-TOM matrices
-Module color assignments
-Module eigengenes
-Cytoscape network files
+- TOM matrices
+- Module color assignments
+- Module eigengenes
+- ytoscape network files
 
 
 
