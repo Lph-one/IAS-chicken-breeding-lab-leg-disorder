@@ -19,32 +19,6 @@ In these files:
 
 ---
 
-## Workflow
-
-The pipeline consists of the following steps:
-
-1. Perform WGCNA separately for CA and CT  
-2. Generate TOM-based heatmaps  
-3. Compare modules across groups using Sankey plots  
-
----
-
-## WGCNA Analysis
-run_CA_WGCNA.R
-run_CT_WGCNA.R
-
----
-
-## Heatmap Visualization
-heatmap_by_group.R
-
----
-
-## Sankey Plot (Module Comparison)
-sankey_plot.R
-
----
-
 ## Requirements
 The following R packages are required:
 
@@ -58,11 +32,30 @@ ggalluvial
 
 ---
 
-## Usage
-source("run_CA_WGCNA.R")
-source("run_CT_WGCNA.R")
-source("heatmap_by_group.R")
-source("sankey_plot.R")
+## Workflow
+### 1. Perform WGCNA separately for CA and CT 
+run_CA_WGCNA.R
+run_CT_WGCNA.R
+
+### 2. Generate TOM-based heatmaps  
+heatmap_by_group.R
+
+### 3. Compare modules across groups using Sankey plots  
+sankey_plot.R
+
+---
+
+## Output
+Results are saved in:
+output/CA_WGCNA/
+output/CT_WGCNA/
+Including:
+TOM matrices
+Module color assignments
+Module eigengenes
+Cytoscape network files
+
+
 
 
 
