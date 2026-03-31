@@ -15,7 +15,6 @@ The pipeline consists of four main steps:
 3. Estimate heritability using GCTA  
 4. Estimate heritability using HIBLUP  
 
-All steps are modular and can be executed independently or as a full workflow.
 
 ---
 
