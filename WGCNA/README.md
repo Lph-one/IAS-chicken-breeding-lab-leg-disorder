@@ -1,12 +1,12 @@
 # WGCNA Analysis and Visualization for CA and CT Groups
 
-A reproducible workflow for Weighted Gene Co-expression Network Analysis (WGCNA) and cross-group module comparison using metabolomics data.
+A reproducible workflow for Weighted correlation network analysis (WGCNA) and cross-group module comparison using metabolomics data.
 
 ---
 
 ## Overview
 
-This repository provides a reproducible workflow for performing Weighted Gene Co-expression Network Analysis (WGCNA) on metabolomics data from two groups (CA and CT), together with downstream visualization including clustered heatmaps and Sankey plots for cross-group module comparison.
+This repository provides a reproducible workflow for performing WGCNA on metabolomics data from two groups (CA and CT), together with downstream visualization including clustered heatmaps and Sankey plots for cross-group module comparison.
 
 The analysis starts from two input datasets:
 
@@ -34,22 +34,18 @@ The following R packages are required:
 
 ## Workflow
 ### 1. Perform WGCNA separately for CA and CT 
-run_CA_WGCNA.R
-run_CT_WGCNA.R
+run_CA_WGCNA.r
+run_CT_WGCNA.r
 
 ### 2. Generate TOM-based heatmaps  
-heatmap_by_group.R
+heatmap_by_group.r
 
 ### 3. Compare modules across groups using Sankey plots  
-sankey_plot.R
+sankey_plot.r
 
 ---
 
 ## Output
-Results are saved in:
-output/CA_WGCNA/
-output/CT_WGCNA/
-Including:
 TOM matrices
 Module color assignments
 Module eigengenes
