@@ -34,8 +34,8 @@ The following R packages are required:
 
 ## Workflow
 ### 1. Perform WGCNA separately for CA and CT 
-run_CA_WGCNA.r
-run_CT_WGCNA.r
+- run_CA_WGCNA.r
+- run_CT_WGCNA.r
 
 ### 2. Generate TOM-based heatmaps  
 heatmap_by_group.r
